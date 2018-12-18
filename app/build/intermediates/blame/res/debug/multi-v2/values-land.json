@@ -14,12 +14,29 @@
                         "endOffsets": "232"
                     },
                     "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "378",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "555"
+                    }
+                },
+                {
+                    "source": "H:\\codelabs\\android-fundamentals-starter-apps-v2-master\\MaterialMe-Starter\\app\\src\\main\\res\\values-land\\integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "49",
+                        "endOffsets": "102"
+                    },
+                    "to": {
                         "startLines": "6",
                         "startColumns": "4",
                         "startOffsets": "328",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "505"
+                        "endColumns": "49",
+                        "endOffsets": "373"
                     }
                 },
                 {

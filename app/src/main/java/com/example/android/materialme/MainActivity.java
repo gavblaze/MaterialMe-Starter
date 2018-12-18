@@ -20,10 +20,10 @@ import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
-import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -47,12 +47,15 @@ public class MainActivity extends AppCompatActivity implements SportsAdapter.OnI
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        int gridColumnCount =
+                getResources().getInteger(R.integer.grid_column_count);
+
         // Initialize the RecyclerView.
         // Member variables.
         RecyclerView mRecyclerView = findViewById(R.id.recyclerView);
 
         // Set the Layout Manager.
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
 
 
         if (savedInstanceState != null) {
@@ -73,9 +76,18 @@ public class MainActivity extends AppCompatActivity implements SportsAdapter.OnI
             initializeData();
         }
 
+        int swipeDirs;
 
-        ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT |
-                ItemTouchHelper.DOWN | ItemTouchHelper.UP, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+        if (gridColumnCount > 1) {
+            swipeDirs = 0;
+        } else {
+            swipeDirs = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
+        }
+
+
+        ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(
+                ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT | ItemTouchHelper.DOWN | ItemTouchHelper.UP,
+                swipeDirs) {
             @Override
             public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
                 int from = viewHolder.getAdapterPosition();
@@ -94,9 +106,7 @@ public class MainActivity extends AppCompatActivity implements SportsAdapter.OnI
 
             }
         });
-
         helper.attachToRecyclerView(mRecyclerView);
-
     }
 
     /**

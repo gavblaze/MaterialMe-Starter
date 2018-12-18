@@ -6,28 +6,50 @@
                 {
                     "source": "C:\\Users\\Gavin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4308ff464cd5750a48837ca654c50316\\res\\values-es\\values-es.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,222,335,443,528,629,757,842,924,1006,1113,1213,1312,1420,1527,1634,1793,1893",
+                        "startOffsets": "1740,1857,1970,2078,2163,2264,2392,2477,2559,2641,2748,2848,2947,3055,3162,3269,3428,3632",
                         "endColumns": "116,112,107,84,100,127,84,81,81,106,99,98,107,106,106,158,99,81",
-                        "endOffsets": "217,330,438,523,624,752,837,919,1001,1108,1208,1307,1415,1522,1629,1788,1888,1970"
+                        "endOffsets": "1852,1965,2073,2158,2259,2387,2472,2554,2636,2743,2843,2942,3050,3157,3264,3423,3523,3709"
                     }
                 },
                 {
                     "source": "C:\\Users\\Gavin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\7704f9c5e05db5726c59cfa4466a071b\\res\\values-es\\values-es.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "62",
                         "startColumns": "4",
-                        "startOffsets": "1975",
+                        "startOffsets": "3792",
                         "endColumns": "100",
-                        "endOffsets": "2071"
+                        "endOffsets": "3888"
+                    }
+                },
+                {
+                    "source": "H:\\codelabs\\android-fundamentals-starter-apps-v2-master\\MaterialMe-Starter\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "from": {
+                        "startLines": "35,21,7,2,4,5,3",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1438,698,298,57,162,217,108",
+                        "endLines": "47,33,19,2,4,5,3",
+                        "endColumns": "12,19,19,49,53,77,52",
+                        "endOffsets": "1970,1430,690,102,211,290,156"
+                    },
+                    "to": {
+                        "startLines": "2,15,28,58,59,61,63",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,630,1355,3528,3578,3714,3893",
+                        "endLines": "14,27,40,58,59,61,63",
+                        "endColumns": "12,19,19,49,53,77,52",
+                        "endOffsets": "625,1350,1735,3573,3627,3787,3941"
                     }
                 }
             ]

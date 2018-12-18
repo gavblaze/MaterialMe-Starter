@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sat Dec 15 22:50:11 NZDT 2018
-0.baseType=DIRECTORY
-0.base=H\:\\codelabs\\android-fundamentals-starter-apps-v2-master\\MaterialMe-Starter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1

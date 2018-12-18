@@ -25,7 +25,7 @@
 
             <TextView
                 android:id="@+id/titleDetail"
-                style="@style/TextAppearance.AppCompat.Headline"
+                style="@style/SportsDetailTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/sport_image_detail"
@@ -37,7 +37,7 @@
 
         <TextView
             android:id="@+id/newsHeaderDetail"
-            style="@style/TextAppearance.AppCompat.Subhead"
+            style="@style/SportsDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
@@ -45,7 +45,7 @@
 
         <TextView
             android:id="@+id/subTitleDetail"
-            style="@style/TextAppearance.AppCompat.Subhead"
+            style="@style/SportsDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"

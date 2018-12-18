@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+    <string-array name="sports_info">
+        <item>¡Aquí hay algunas noticias de béisbol!</item>
+        <item>¡Aquí hay algunas noticias de bádminton!</item>
+        <item>¡Aquí hay algunas noticias de baloncesto!</item>
+        <item>¡Aquí hay algunas noticias de bolos!</item>
+        <item>¡Aquí hay algunas noticias de ciclismo!</item>
+        <item>¡Aquí hay algunas noticias de golf!</item>
+        <item>¡Aquí hay algunas noticias de corriendo!</item>
+        <item>¡Aquí hay algunas noticias de fútbol!</item>
+        <item>¡Aquí hay algunas noticias de natación!</item>
+        <item>¡Aquí hay algunas noticias de tenis de mesa!</item>
+        <item>¡Aquí hay algunas noticias de tenis!</item>
+    </string-array>
+    <string-array name="sports_titles">
+        <item>Béisbol</item>
+        <item>Badminton</item>
+        <item>Baloncesto</item>
+        <item>Bolos</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Corriendo</item>
+        <item>Fútbol</item>
+        <item>Nadando</item>
+        <item>Mesa de tennis</item>
+        <item>Tenis</item>
+    </string-array>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
@@ -17,6 +56,10 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="app_name">Material Me!</string>
+    <string name="news_placeholder">Noticias</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="sports_info_placeholder">Aquí hay algunas noticias</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="title_placeholder">Título</string>
 </resources>
